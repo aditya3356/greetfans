@@ -9,6 +9,8 @@ function handleLogin(token, context) {
   logger.log('auth.handleLogin', token);
   cookie.set('token', token, {expires: 1});
 
+  console.log(token);
+
   redirect('/dashboard', context);
 }
 

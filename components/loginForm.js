@@ -65,11 +65,13 @@ export default class LoginForm extends Component {
     const {username, password} = this.state;
 
     try {
-      const response = await fetch(url, {
+      const response = await fetch("http://localhost:3000/api/login/token", {
         method: 'POST',
         headers: {'Content-Type': 'application/json'},
         body: JSON.stringify(this.state),
       });
+
+      console.log(response);
       if (response.ok) {
         const {token} = await response.json();
         handleLogin(token);
