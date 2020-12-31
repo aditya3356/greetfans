@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "greetfansmaster",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authgreetfansmaster0c60c8ca",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-greetfansmaster-dev-161512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::119247788525:role/amplify-greetfansmaster-dev-161512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::119247788525:role/amplify-greetfansmaster-dev-161512-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-greetfansmaster-dev-161512-deployment",
+      "UnauthRoleName": "amplify-greetfansmaster-dev-161512-unauthRole",
+      "StackName": "amplify-greetfansmaster-dev-161512",
+      "StackId": "arn:aws:cloudformation:ap-south-1:119247788525:stack/amplify-greetfansmaster-dev-161512/bfc72e90-4b54-11eb-aebd-0a46b14f170e",
+      "AmplifyAppId": "d1bqdke1l6fj8m"
+    },
+    "categories": {
+      "auth": {
+        "greetfansmaster0c60c8ca": {}
+      }
+    }
+  }
+}

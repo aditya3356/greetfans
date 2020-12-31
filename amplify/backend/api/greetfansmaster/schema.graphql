@@ -1,0 +1,24 @@
+type User @model {
+  userId: String
+  platformId: String
+  firstName: String
+  lastName: String
+  email: String
+  password: String
+  avatar: String
+}
+
+type Platform @model {
+  address: String
+  city: String
+  description: String
+  email: String
+  name: String
+  ownerUserId: String
+  phone: String
+  platformId: String
+  slug: String
+  state: String
+  stripeUserId: String
+  zip: String
+}
